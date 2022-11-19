@@ -1,0 +1,12 @@
+.footer {
+  @media (max-width: 768px) {
+    &__inner {
+      flex-direction: column-reverse;
+      gap: 30px;
+    }
+  }
+
+  &__contact, &__politic {
+    align-self: center;
+  }
+}

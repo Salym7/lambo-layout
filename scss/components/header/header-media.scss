@@ -1,0 +1,18 @@
+.header {
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+    .menu-button {
+      display: block;
+    }
+    .logo {
+      img {
+        width: 75%;
+      }
+    }
+  }
+  @media (max-width: 450px) {
+
+  }
+}

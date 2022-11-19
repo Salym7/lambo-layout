@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: $font-family-main;
+  font-weight: 400;
+  font-size: 14px;
+  color: $color-black;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 0 30px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 0;
+}
+
+//.subtitle {
+//  font-size: 16px;
+//  font-weight: 700;
+//  line-height: 19px;
+//  margin-bottom: 10px;
+//  text-transform: uppercase;
+//  margin-top: 0;
+//}
+//
+//.btn-group {
+//  input {
+//    padding: 0;
+//    width: 4px;
+//    height: 25px;
+//    background: $color-black;
+//    border: none;
+//    cursor: pointer;
+//    border-radius: 1px;
+//    list-style: none;
+//    margin-bottom: 10px;
+//    display: block;
+//  }
+//
+//  .active, input:hover {
+//    background: $color-red;
+//    transition: 0.5s;
+//  }
+//
+//}
+//
+//.btn {
+//  display: inline-block;
+//  text-decoration: none;
+//  font-size: 20px;
+//  font-weight: 400;
+//  line-height: 24px;
+//  letter-spacing: 1.1em;
+//  color: $color-white;
+//  background: $color-black;
+//  padding: 28px 70px;
+//  border: none;
+//}
+//
+//@media (max-width: 450px) {
+//  .btn {
+//    width: 100%;
+//  }
+//}
+//
+//.btn:hover {
+//  background: $color-red;
+//  transition: 0.5s;
+//}
+
+//
+//.offcanvas {
+//  background: $color-three;
+//}
+//
+//a {
+//  text-decoration: none;
+//
+//  &:hover {
+//    color: $color-three;
+//    transition: .3s;
+//  }
+//
+//}
+//
+//li {
+//  list-style-type: none;
+//}
+//
+//.btn-link-my {
+//  display: inline-block;
+//  background: $color-second;
+//  padding: 15px 24px;
+//  font-family: $font-family-main;
+//  color: $color-first;
+//  text-transform: uppercase;
+//  border-radius: 5px;
+//  border: 1px solid transparent;
+//}
+//
+//.btn-link-my:hover {
+//  background: $color-first;
+//  color: $color-second;
+//  border-color: $color-second;
+//}
+//
+//.sign-author {
+//  font-size: $font-sm;
+//  color: #B2B2BF;
+//  margin-bottom: 40px;
+//}
+//
+//.box-link {
+//  color: $color-second;
+//  text-transform: uppercase;
+//  font-size: $font-xs;
+//}
+//
+//.box-link:hover {
+//  color: $color-first;
+//}
+//
+//
+//@media (max-width: 992px) {
+//  .btn-link-my {
+//    width: 60%;
+//  }
+//}
+//
+//@media (max-width: 576px) {
+//  .btn-link-my {
+//    width: 100%;
+//  }
+//}
