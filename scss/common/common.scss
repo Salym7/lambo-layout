@@ -18,11 +18,36 @@ body {
   color: $color-black;
 }
 
-.container {
+.big-container {
   margin: 0 auto;
   max-width: 1260px;
   padding: 0 30px;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 30px;
+}
+
+.subtitle {
+  font-size: 32px;
+  font-weight: lighter;
+  margin: 0 0 32px 0;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+//.flex-center {
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//}
+
 
 @media (max-width: 576px) {
   .container {
@@ -38,6 +63,10 @@ ul {
 
 li {
   padding-left: 0;
+}
+
+p {
+  margin: 0;
 }
 
 //.subtitle {

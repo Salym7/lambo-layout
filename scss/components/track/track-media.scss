@@ -1,0 +1,13 @@
+.track {
+  @media (max-width: 768px) {
+    &__img {
+      width: 100%;
+    }
+
+  }
+  @media (max-width: 576px) {
+    &__inner {
+      padding-bottom: 45px;
+    }
+  }
+}

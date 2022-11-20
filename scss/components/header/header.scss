@@ -31,9 +31,34 @@
       font-size: 16px;
     }
 
-    &-link:hover {
-      transition: .3s;
+    //&-item:hover {
+    //  transition: .3s;
+    //  color:
+    //  text-decoration: underline;
+    //}
+    &-link {
+      display: inline-block;
+      position: relative;
       color: $color-gold;
+      text-decoration: none;
+    }
+
+    &-link::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 3px;
+      bottom: -4px;
+      left: 0;
+      background-color: $color-gold;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    &-link:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
     }
   }
 }

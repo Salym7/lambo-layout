@@ -1,0 +1,129 @@
+.evo-black {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: $color-dark-grey;
+
+  &__inner {
+    position: relative;
+    z-index: 10;
+  }
+
+  &__inner:before {
+    z-index: -1;
+    content: '';
+    background-image: url("../assets/evo-decor1.svg");
+    background-repeat: no-repeat;
+    width: 206px;
+    height: 206px;
+    left: -100px;
+    bottom: 310px;
+    position: absolute;
+  }
+
+  &__inner:after {
+    z-index: -1;
+    content: '';
+    background-image: url("../assets/evo-decor2.svg");
+    background-repeat: no-repeat;
+    width: 556px;
+    height: 560px;
+    left: -17px;
+    bottom: -133px;
+    position: absolute;
+  }
+
+  &__description {
+    display: flex;
+    margin-bottom: 170px;
+  }
+
+  &__col {
+    width: 50%;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    display: block;
+    margin: 0 auto 60px;
+  }
+
+  &__characteristic {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+.evo-white {
+  padding-top: 126px;
+  padding-bottom: 100px;
+
+  &__inner {
+    position: relative;
+    z-index: 10;
+  }
+
+  &__inner:before {
+    z-index: -1;
+    content: '';
+    background-image: url("../assets/evo-decor3.png");
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 257px;
+    left: 352px;
+    bottom: 577px;
+    position: absolute;
+  }
+
+  &__inner:after {
+    z-index: -1;
+    content: '';
+    background-image: url("../assets/evo-decor4.png");
+    background-repeat: no-repeat;
+    width: 324px;
+    height: 311px;
+    left: 600px;
+    bottom: 362px;
+    position: absolute;
+  }
+
+
+  &__text:nth-child(1) {
+    max-width: 285px;
+    padding-bottom: 30px;
+  }
+
+  &__text:nth-child(2) {
+    max-width: 437px;
+    padding-bottom: 30px;
+  }
+
+  &__text:nth-child(3) {
+    max-width: 590px;
+    padding-bottom: 100px;
+  }
+
+  &__video {
+    background-image: url("../assets/evo-video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-link {
+      text-align: center;
+
+      p {
+        color: $color-white;
+      }
+    }
+  }
+
+}

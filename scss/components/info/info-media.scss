@@ -1,0 +1,31 @@
+.info {
+  @media (max-width: 768px) {
+    &__flex {
+      display: block;
+    }
+    &__text-command, &__text-calendar {
+      width: 100%;
+    }
+    &__text-calendar {
+      margin-bottom: 50px;
+    }
+    &__table {
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 576px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__command {
+      padding-top: 50px;
+    }
+
+    &__img-command {
+      width: 100%;
+    }
+
+  }
+
+
+}
