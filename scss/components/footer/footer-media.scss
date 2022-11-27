@@ -1,12 +1,19 @@
 .footer {
   @media (max-width: 768px) {
-    &__inner {
-      flex-direction: column-reverse;
-      gap: 30px;
+    &__top {
+      display: block;
+      text-align: center;
+    }
+    &__info {
+      width: 100%;
+    }
+    .social-list {
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    .subtitle {
+      text-align: center;
     }
   }
 
-  &__contact, &__politic {
-    align-self: center;
-  }
 }
